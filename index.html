@@ -1,0 +1,139 @@
+<html>
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+<link rel="manifest" href="/icons/site.webmanifest">
+<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/icons/favicon.ico">
+<meta name="theme-color" content="#000000">
+<meta name="keywords" content="ZmK, ZakMcKraken"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>ZmK</title>
+<style>
+@keyframes move-background {
+  from { -webkit-transform: translate3d(0px, 0px, 0px); }
+	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
+}
+@-webkit-keyframes move-background {
+  from { -webkit-transform: translate3d(0px, 0px, 0px); }
+	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
+}
+@-moz-keyframes move-background {
+	from { -webkit-transform: translate3d(0px, 0px, 0px); }
+	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
+}
+@-webkit-keyframes move-background {
+	from { -webkit-transform: translate3d(0px, 0px, 0px); }
+	to { -webkit-transform: translate3d(1000px, 0px, 0px);}
+}
+
+.background-container{ position: fixed; top: 0; left:0; bottom: 0; right: 0; }
+
+.stars {
+ background: black url("/icons/stars.png") repeat;
+ position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: block; z-index: 0;
+}
+
+.twinkling{
+	width:10000px; height: 100%;
+	background: transparent url("/icons/twinkling.png") repeat;
+	background-size: 1000px 1000px;
+	position: absolute; right: 0; top: 0; bottom: 0; z-index: 2;
+	-moz-animation:move-background 70s linear infinite;
+	-ms-animation:move-background 70s linear infinite;
+	-o-animation:move-background 70s linear infinite;
+	-webkit-animation:move-background 70s linear infinite;
+	animation:move-background 70s linear infinite;
+}
+
+.clouds{
+	width:10000px; height: 100%;
+	background: transparent url("/icons/clouds_repeat.png") repeat;
+	background-size: 1000px 1000px;
+	position: absolute; right: 0; top: 0; bottom: 0; z-index: 3;
+	-moz-animation:move-background 150s linear infinite;
+	-ms-animation:move-background 150s linear infinite;
+	-o-animation:move-background 150s linear infinite;
+	-webkit-animation:move-background 150s linear infinite;
+	animation:move-background 150s linear infinite;
+}
+
+img{
+	height: 70vh; width:70vh;
+	position: absolute; z-index: 3; right: 20px;
+}
+.page{
+	position: fixed; left: 10px; bottom: 10px; z-index: 10;
+	font-family: Verdana, sans-serif;
+}
+ul { list-style-type: none; padding: 0; margin: 0; }
+a:link { color: #fff; }
+a:visited { color: #fff; }
+
+ul li { display: flex; align-items: center; gap: 0.5em; margin-bottom: 3px; }
+ul svg { width: 24px; height: 24px; display: block; }
+ul a { color: white; text-decoration: underline; font-family: inherit; font-size: 1em; }
+
+
+</style>
+</head>
+<body style="background-color: black;">
+<div class="background-container">
+<img src="/icons/moon.png" alt="">
+<div class="stars"></div>
+<div class="twinkling"></div>
+<div class="clouds"></div>
+<div class="page">
+
+
+
+<ul>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" rx="15%" fill="#6441a4"/><path d="m115 101-22 56v228h78v42h44l41-42h63l85-85v-199zm260 185-48 48h-78l-42 42v-42h-65v-204h233zm-48-100v85h-30v-85zm-78 0v85h-29v-85z" fill="#fff"/></svg>
+	<a rel="me" href="https://twitch.tv/ZmK54">Twitch</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" fill="#7289da" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" rx="15%"/><path d="M346 392l-21-25c41-11 57-39 57-39-52 49-194 51-249 0 0 0 14 26 56 39l-23 25c-70-1-97-48-97-48 0-104 46-187 46-187 47-33 90-33 90-33l3 4c-58 16-83 42-83 42 68-46 208-42 263 0 1-1-33-28-86-42l5-4s43 0 90 33c0 0 46 83 46 187 0 0-27 47-97 48z" fill="#fff"/><ellipse cx="196" cy="279" rx="33" ry="35"/><ellipse cx="312" cy="279" rx="33" ry="35"/></svg>
+	<a rel="me" href="https://discord.gg/t6EqvQCPxB">Discord</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512" fill="#ebebeb"><rect width="512" height="512" rx="15%" fill="#231f20"/><path d="m183 280 41 28 27 41 87-62-94-96"/><circle cx="340" cy="190" r="49"/><g fill="none" stroke="#ebebeb"><circle cx="179" cy="352" r="63" stroke-width="19"/><path d="m-18 271 195 81" stroke-width="80" stroke-linecap="round"/><circle cx="340" cy="190" r="81" stroke-width="32"/></g></svg>
+	<a rel="me" href="https://steamcommunity.com/id/zakmckraken/">Steam</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 500 500"><polygon style="fill: rgb(237, 28, 36); stroke: rgb(0, 0, 0);" points="248.48 37.793 458.732 400.521 401.39 463.51 275.413 371.851 347.959 371.416 247.176 200.695 149.435 371.851 225.022 371.416 94.7 463.944 38.662 398.349"></polygon></svg>
+	<a rel="me" href="https://apexlegendsstatus.com/profile/uid/PC/2264459124">ApexLegends</a></li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" fill="#171515" rx="15%"/><path fill="#fff" d="M119 255c17 30 49 48 102 53-8 6-17 17-18 30-10 6-29 8-44 3-21-7-29-48-61-42-7 1-6 6 0 10 10 6 21 16 26 30 12 31 37 39 77 33v45c0 14-20 18-20 25 0 3 7 3 12 3 10 0 32-9 32-23 0-12 0-52 1-59 0-15 8-20 8-20s1 82-2 92c-4 13-10 11-10 17 0 9 26 2 35-17 7-15 4-95 3-94h7s0 37 1 53c0 17-1 39 9 50 7 7 29 19 29 8 0-6-12-12-12-29v-79c10 0 8 26 8 26l1 48s-2 18 19 25c8 3 24 3 25-1s-20-11-20-25v-49c0-36-5-49-22-60 53-5 86-18 102-53 10-20 12-44 12-62 0-50-24-67-29-76 7-38-1-55-5-60-14-5-48 12-66 24-30-9-94-8-118 2-44-31-67-26-67-26s-15 27-4 66c-15 18-25 31-26 65 0 27 3 44 15 67z"/></svg>
+	<a rel="me" href="https://github.com/ZmK">GitHub</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="24" height="24"><path d="M238 65 Q252 57 267 65 L333 103 Q347 112 347 128 V204 Q347 221 333 229 L267 267 Q252 275 238 267 L172 229 Q158 221 158 204 V128 Q158 112 172 103 Z" fill="#2097f3" stroke="#000"/><path d="M338 240 Q353 232 367 240 L433 278 Q447 286 447 302 V379 Q447 395 433 403 L367 441 Q353 449 338 441 L272 403 Q258 395 258 379 V302 Q258 286 272 278 Z" fill="#e91e67" stroke="#000"/><path d="M135 237 Q149 229 163 237 L229 275 Q244 283 244 299 V376 Q244 392 229 400 L163 438 Q149 446 135 438 L69 400 Q55 392 55 376 V299 Q55 283 69 275 Z" fill="#8bc24a" stroke="#000"/></svg>
+	<a rel="me" href="https://myludo.fr/#!/profil/ZmK-48769">Myludo</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 9750 9750"><g fill="rgb(247,147,49)"><g><path d="M4555 9669 c-976 -66 -1898 -417 -2660 -1013 -354 -277 -688 -624 -948 -984 -994 -1375 -1193 -3174 -526 -4735 458 -1071 1295 -1946 2344 -2453 1524 -735 3307 -626 4730 291 505 325 969 769 1322 1265 358 503 632 1112 767 1705 223 978 147 1963 -222 2900 -68 171 -239 515 -341 683 -412 682 -975 1246 -1658 1660 -163 99 -529 281 -698 347 -678 266 -1406 382 -2110 334z m970 -2290 c153 -10 287 -27 430 -55 116 -22 113 -20 78 -57 -39 -41 -125 -174 -288 -447 -175 -294 -247 -401 -319 -477 -75 -78 -107 -90 -166 -61 -72 36 -159 157 -390 543 -154 257 -223 365 -277 432 -18 23 -30 44 -25 47 17 10 225 46 357 60 232 26 386 30 600 15z m-2560 -1054 c37 -84 199 -385 375 -695 284 -503 380 -709 380 -820 0 -45 -4 -56 -30 -80 -57 -53 -183 -79 -380 -80 -169 0 -373 -18 -469 -40 -246 -59 -367 -204 -387 -465 -13 -166 45 -301 194 -456 241 -252 615 -441 1347 -684 171 -57 329 -110 351 -120 46 -18 54 -36 54 -129 0 -89 29 -307 56 -411 50 -199 121 -332 244 -455 134 -134 282 -199 503 -220 191 -18 385 13 530 86 277 139 433 422 476 868 6 60 11 135 11 166 0 31 6 64 13 74 8 11 140 60 353 131 759 252 1135 440 1379 690 138 141 194 263 195 420 0 199 -69 343 -205 430 -115 74 -257 102 -548 110 -325 10 -439 31 -487 93 -27 33 -26 114 1 195 29 88 129 293 244 497 279 497 373 668 441 803 47 92 80 147 88 145 8 -2 46 -39 86 -83 777 -854 1056 -2047 739 -3157 -227 -793 -739 -1470 -1443 -1910 -947 -591 -2138 -668 -3156 -204 -966 441 -1670 1327 -1879 2364 -49 240 -64 399 -64 667 0 268 15 427 64 667 102 509 332 1003 654 1403 123 153 226 266 237 259 5 -3 20 -30 33 -59z"></path></g></g></svg>
+	<a rel="me" href="https://www.philibertnet.com/fr/module/blockwishlist/view?token=F4EB6531DD16CD44">Philibert</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512"><rect fill="#d43377" height="512" rx="15%" width="512"/><g fill="none" stroke="#fff" stroke-width="29"><rect height="296" rx="78" width="296" x="108" y="108"/><circle cx="256" cy="256" r="69"/></g><circle cx="343" cy="169" fill="#fff" r="19"/></svg>
+	<a rel="me" href="https://instagram.com/zmk54/">Instagram</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" fill="#1da1f2" rx="15%"/><path fill="#fff" d="M437 152c-12 6-26 10-40 12 15-9 26-23 32-40-14 8-29 14-45 17a72 72 0 0 0-122 65c-56-3-110-29-145-74a68 68 0 0 0 22 94c-11 0-22-2-32-7 1 33 24 62 56 69-10 3-21 3-32 1 10 29 37 49 67 50-29 24-68 35-105 29a199 199 0 0 0 309-179c14-10 26-22 35-37"/></svg>
+	<a rel="me" href="https://twitter.com/ZmK">Twitter</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg" fill="#ff4500" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" rx="15%"/><ellipse cx="256" cy="305" fill="#fff" rx="177" ry="123"/><path d="M199 347c35 29 79 29 114 0l12 11c-42 35-96 35-138 0z"/><circle cx="315" cy="285" r="28"/><circle cx="197" cy="285" r="28"/><g fill="none" stroke="#fff"><circle cx="390" cy="125" r="28" stroke-width="25"/><path stroke-width="22" d="M87 282c-45-22-5-92 40-50m298 50c45-22 5-92-40-50m-127-45l24-83 80 16"/></g></svg>
+	<a rel="me" href="https://reddit.com/user/ZmK54">Reddit</a>
+</li>
+<li>
+	<svg xmlns="http://www.w3.org/2000/svg"  height="24" width="24" viewBox="0,0,512,512" fill="#fff"><rect width="512" height="512" rx="15%" fill="#3088d4"/><path d="m409 290c-5 24-43 50-85 56-86 11-137-6-137-6 3 13-4 54 70 52 31 0 58-7 58-7l2 27c-51 24-107 15-140 6-67-17-79-90-81-162v-59c0-74 49-96 49-96 50-24 180-22 222 0 0 0 49 22 49 96 0 0 1 55-7 93"/><path d="m358 202v91h-35v-88c0-18-8-27-23-27-18 0-27 11-27 33v47h-34v-47c0-22-9-33-27-33-15 0-23 9-23 27v88h-35v-91c0-18 5-60 52-60 39 0 50 37 50 37s10-37 50-37c45 0 52 42 52 60" fill="#3088d4"/></svg>
+	<a rel="me" href="https://mastodon.social/@ZmK">Mastodon</a>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
