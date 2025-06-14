@@ -1,72 +1,10 @@
 <html>
 <head>
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
-<link rel="manifest" href="/icons/site.webmanifest">
-<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
-<link rel="shortcut icon" href="/icons/favicon.ico">
-<meta name="theme-color" content="#000000">
+<link rel="shortcut icon" href="/favicon.ico">
 <meta name="keywords" content="ZmK, ZakMcKraken"/>
- <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <title>ZmK</title>
 <style>
-@keyframes move-background {
-  from { -webkit-transform: translate3d(0px, 0px, 0px); }
-	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
-}
-@-webkit-keyframes move-background {
-  from { -webkit-transform: translate3d(0px, 0px, 0px); }
-	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
-}
-@-moz-keyframes move-background {
-	from { -webkit-transform: translate3d(0px, 0px, 0px); }
-	to { -webkit-transform: translate3d(1000px, 0px, 0px); }
-}
-@-webkit-keyframes move-background {
-	from { -webkit-transform: translate3d(0px, 0px, 0px); }
-	to { -webkit-transform: translate3d(1000px, 0px, 0px);}
-}
-
-.background-container{ position: fixed; top: 0; left:0; bottom: 0; right: 0; }
-
-.stars {
- background: black url("/icons/stars.png") repeat;
- position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: block; z-index: 0;
-}
-
-.twinkling{
-	width:10000px; height: 100%;
-	background: transparent url("/icons/twinkling.png") repeat;
-	background-size: 1000px 1000px;
-	position: absolute; right: 0; top: 0; bottom: 0; z-index: 2;
-	-moz-animation:move-background 70s linear infinite;
-	-ms-animation:move-background 70s linear infinite;
-	-o-animation:move-background 70s linear infinite;
-	-webkit-animation:move-background 70s linear infinite;
-	animation:move-background 70s linear infinite;
-}
-
-.clouds{
-	width:10000px; height: 100%;
-	background: transparent url("/icons/clouds_repeat.png") repeat;
-	background-size: 1000px 1000px;
-	position: absolute; right: 0; top: 0; bottom: 0; z-index: 3;
-	-moz-animation:move-background 150s linear infinite;
-	-ms-animation:move-background 150s linear infinite;
-	-o-animation:move-background 150s linear infinite;
-	-webkit-animation:move-background 150s linear infinite;
-	animation:move-background 150s linear infinite;
-}
-
-img{
-	height: 70vh; width:70vh;
-	position: absolute; z-index: 3; right: 20px;
-}
-.page{
-	position: fixed; left: 10px; bottom: 10px; z-index: 10;
-	font-family: Verdana, sans-serif;
-}
 ul { list-style-type: none; padding: 0; margin: 0; }
 a:link { color: #fff; }
 a:visited { color: #fff; }
@@ -74,8 +12,6 @@ a:visited { color: #fff; }
 ul li { display: flex; align-items: center; gap: 0.5em; margin-bottom: 3px; }
 ul svg { width: 24px; height: 24px; display: block; }
 ul a { color: white; text-decoration: underline; font-family: inherit; font-size: 1em; }
-
-
 </style>
 </head>
 <body style="background-color: black;">
@@ -85,9 +21,6 @@ ul a { color: white; text-decoration: underline; font-family: inherit; font-size
 <div class="twinkling"></div>
 <div class="clouds"></div>
 <div class="page">
-
-
-
 <ul>
 <li>
 	<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0,0,512,512"><rect width="512" height="512" rx="15%" fill="#6441a4"/><path d="m115 101-22 56v228h78v42h44l41-42h63l85-85v-199zm260 185-48 48h-78l-42 42v-42h-65v-204h233zm-48-100v85h-30v-85zm-78 0v85h-29v-85z" fill="#fff"/></svg>
